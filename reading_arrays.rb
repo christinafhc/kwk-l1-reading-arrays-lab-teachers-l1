@@ -38,7 +38,7 @@ def first_second_and_third_students
   current_idx = 0
   while current_idx < STUDENT_NAMES[2]
   current_student = STUDENT_NAMES[current_idx]
-  puts current_student
+  current_student
     current_idx += 1
   end
 end
