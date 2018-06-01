@@ -41,5 +41,3 @@ while current_idx < STUDENT_NAMES.2
   current_idx += 1
 end
 end
-
-puts first_student_by_index
