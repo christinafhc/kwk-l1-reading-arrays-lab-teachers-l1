@@ -35,10 +35,5 @@ end
 
 def first_second_and_third_students
   # Write a solution that returns the first, second and third students
-  current_idx = 0
-  while current_idx < STUDENT_NAMES[2]
-  current_student = STUDENT_NAMES[current_idx]
-  current_student
-    current_idx += 1
-  end
+  STUDENT_NAMES[0..2]
 end
